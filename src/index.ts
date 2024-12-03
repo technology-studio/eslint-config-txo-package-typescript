@@ -12,7 +12,7 @@ import {
 
 import jestConfigList from './configs/jest.js'
 
-const config = typescriptEslint.config(
+export const config = typescriptEslint.config(
   {
     files: ['**/*.js', '**/*.ts'],
     extends: [
@@ -22,17 +22,14 @@ const config = typescriptEslint.config(
     ],
   },
   ...jestConfigList,
-  {
-    ignores: [
-      'commitlint.config.js',
-      'coverage/**/*',
-      'release.config.js',
-      '.releaserc.js',
-      'eslint.config.js',
-      'node_modules',
-      'lib',
-    ],
-  },
 )
 
-export default config
+export const ignoreList = [
+  'commitlint.config.js',
+  'coverage/**/*',
+  'release.config.js',
+  '.releaserc.js',
+  'eslint.config.js',
+  'node_modules',
+  'lib/**/*',
+]
