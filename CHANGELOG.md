@@ -1,3 +1,15 @@
+## 1.0.0 (2024-12-04)
+
+
+### CI
+
+* fix releaserc ([#3](https://github.com/technology-studio/eslint-config-txo-package-typescript/issues/3)) ([869075f](https://github.com/technology-studio/eslint-config-txo-package-typescript/commit/869075fed93fc82a6698b32567b2111e5c082426))
+
+
+### Features
+
+* initial implementation ([#1](https://github.com/technology-studio/eslint-config-txo-package-typescript/issues/1)) ([15b036d](https://github.com/technology-studio/eslint-config-txo-package-typescript/commit/15b036dd78bd150ac8b48c5fcbfb2295aa270603))
+
 ## 1.0.0 (2022-09-23)
 
 
