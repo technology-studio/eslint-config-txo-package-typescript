@@ -4,15 +4,15 @@
  * @Copyright: Technology Studio
 **/
 
-import typescriptEslint from 'typescript-eslint'
 import {
+  jestConfig,
   stylisticConfig,
   typescriptConfigList,
+  type TSESLint,
+  typescriptEslintConfig,
 } from 'eslint-config-txo-typescript'
 
-import jestConfigList from './configs/jest.js'
-
-export const config = typescriptEslint.config(
+const defaultConfigList = typescriptEslintConfig(
   {
     files: ['**/*.js', '**/*.ts'],
     extends: [
@@ -21,15 +21,30 @@ export const config = typescriptEslint.config(
       ...typescriptConfigList,
     ],
   },
-  ...jestConfigList,
 )
 
-export const ignoreList = [
-  'commitlint.config.js',
-  'coverage/**/*',
-  'release.config.js',
-  '.releaserc.js',
-  'eslint.config.js',
-  'node_modules',
-  'lib/**/*',
+const jestConfigList = typescriptEslintConfig(
+  {
+    files: ['__tests__/**/*.ts'],
+    extends: [
+      jestConfig,
+    ],
+  },
+)
+
+export const configList: TSESLint.FlatConfig.Config[] = [
+  ...defaultConfigList,
+  ...jestConfigList,
+  {
+    ignores: [
+      'commitlint.config.js',
+      'coverage/**/*',
+      'release.config.js',
+      '.releaserc.js',
+      'eslint.config.js',
+      'jest.config.js',
+      'node_modules',
+      'lib/**/*',
+    ],
+  },
 ]
