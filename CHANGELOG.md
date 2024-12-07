@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/technology-studio/eslint-config-txo-package-typescript/compare/v1.0.1...v1.0.2) (2024-12-07)
+
+
+### Bug fixes
+
+* **deps:** update dependency eslint-config-txo-typescript to ^7.2.1 ([#5](https://github.com/technology-studio/eslint-config-txo-package-typescript/issues/5)) ([2a4cd9b](https://github.com/technology-studio/eslint-config-txo-package-typescript/commit/2a4cd9be3b80aef56d6af3c56473b216ba4a9fcd))
+
 ## [1.0.1](https://github.com/technology-studio/eslint-config-txo-package-typescript/compare/v1.0.0...v1.0.1) (2024-12-06)
 
 
