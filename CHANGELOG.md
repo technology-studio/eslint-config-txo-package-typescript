@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/technology-studio/eslint-config-txo-package-typescript/compare/v1.0.5...v1.0.6) (2024-12-11)
+
+
+### Bug fixes
+
+* ignore eslint-ci config ([7bf0005](https://github.com/technology-studio/eslint-config-txo-package-typescript/commit/7bf00055f3d947647254f8b118f1976fa234f728))
+
 ## [1.0.5](https://github.com/technology-studio/eslint-config-txo-package-typescript/compare/v1.0.4...v1.0.5) (2024-12-10)
 
 
