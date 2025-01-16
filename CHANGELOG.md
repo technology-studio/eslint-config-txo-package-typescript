@@ -1,3 +1,10 @@
+## [1.0.28](https://github.com/technology-studio/eslint-config-txo-package-typescript/compare/v1.0.27...v1.0.28) (2025-01-16)
+
+
+### Bug fixes
+
+* add `cli.js` to ignore list ([#40](https://github.com/technology-studio/eslint-config-txo-package-typescript/issues/40)) ([702789d](https://github.com/technology-studio/eslint-config-txo-package-typescript/commit/702789d8d019f46e07ba04917046fada28614ae1))
+
 ## [1.0.27](https://github.com/technology-studio/eslint-config-txo-package-typescript/compare/v1.0.26...v1.0.27) (2025-01-16)
 
 
