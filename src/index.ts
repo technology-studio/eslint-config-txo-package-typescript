@@ -38,6 +38,7 @@ export const configList: TSESLint.FlatConfig.Config[] = [
   {
     ignores: [
       '.releaserc.js',
+      'cli.js',
       'commitlint.config.js',
       'coverage/**/*',
       'eslint-ci.config.js',
