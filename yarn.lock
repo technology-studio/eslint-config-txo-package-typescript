@@ -3015,10 +3015,10 @@ eslint-config-love@^118.0.0:
     eslint-plugin-promise "^7.0.0"
     typescript-eslint "^8.20.0"
 
-eslint-config-txo-typescript@^7.4.5:
-  version "7.4.5"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-7.4.5.tgz#d1adb2b7b42896de75b003c172a5343a1b1a904a"
-  integrity sha512-dUBaUwA2t2jF9UoNFnDaEbR2fV40U7L0WrCmKCvRBD+bEJCcCJWc/Zeu9IqP9httFdwXXFWYxW0EipvVX1xM3g==
+eslint-config-txo-typescript@^7.4.6:
+  version "7.4.6"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-7.4.6.tgz#af66ce22c85a2d58b3007b64d4ae7f2617e3b861"
+  integrity sha512-tRY6o4qZmOraqCgUEQMg+GBkCQjqDYMqjdS9ozt3SOmeQO4w3dxBEW37DQCLaaSMaNxbe8O5zlUoQlQA5T8MRw==
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.4.1"
     "@stylistic/eslint-plugin" "^2.13.0"
