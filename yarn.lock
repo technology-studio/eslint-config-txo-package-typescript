@@ -3110,17 +3110,17 @@ eslint-config-love@^119.0.0:
     eslint-plugin-promise "^7.0.0"
     typescript-eslint "^8.26.0"
 
-eslint-config-txo-typescript@^7.4.40:
-  version "7.4.40"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-7.4.40.tgz#b76171a48872a228e833e4440c5b94d81a6bcce3"
-  integrity sha512-5oGdVjd13NmKgRMlc8ZZtPMn5XhF2hVFRWREvnMLB9nnq4jE7ANYWXaWsSNF7Mho/8mcxgL56iEDDtN/PvfLdQ==
+eslint-config-txo-typescript@^7.4.41:
+  version "7.4.41"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-7.4.41.tgz#47cbc0ecdffea3f791f2601e600a5b9a9f692420"
+  integrity sha512-WiMbb5D5AI8jRHN4TugCM2kr78XVwso7E3oI89wLQ8iSsRup7gdKLouEkPpAuSAYkyWQ5AaIbjWIbLQqgxJjHg==
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.4.1"
     "@stylistic/eslint-plugin" "^4.2.0"
     "@typescript-eslint/utils" "^8.26.1"
     eslint "^9.22.0"
     eslint-config-love "^119.0.0"
-    eslint-import-resolver-typescript "^4.2.0"
+    eslint-import-resolver-typescript "^4.2.1"
     eslint-plugin-import "^2.31.0"
     eslint-plugin-jest "^28.11.0"
     eslint-plugin-n "^17.16.2"
@@ -3138,7 +3138,7 @@ eslint-import-resolver-node@^0.3.9:
     is-core-module "^2.13.0"
     resolve "^1.22.4"
 
-eslint-import-resolver-typescript@^4.2.0:
+eslint-import-resolver-typescript@^4.2.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-4.2.1.tgz#a48bbe43490dea494eed34c2bf5152249aba7d84"
   integrity sha512-jAAKR08YRFtlRpxK3OnixV0JB88lH3Xo7HWn1KpKlEvtVUlLMAcRCcBvWT1KAnfT4jPAs4veyFxuUqSdg/Vd3g==
