@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-txo-package-typescript",
-  "version": "1.0.83",
+  "version": "1.0.84",
   "description": "Technology Studio - Eslint config txo package typescript",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -39,7 +39,7 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "eslint-config-txo-typescript": "^7.4.72"
+    "eslint-config-txo-typescript": "^7.4.74"
   },
   "devDependencies": {
     "@txo-peer-dep/log": "^4.0.4",
