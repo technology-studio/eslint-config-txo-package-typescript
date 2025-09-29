@@ -1,3 +1,15 @@
+## [1.0.115](https://github.com/technology-studio/eslint-config-txo-package-typescript/compare/v1.0.114...v1.0.115) (2025-09-29)
+
+
+### CI
+
+* add pr.yml permissions ([#172](https://github.com/technology-studio/eslint-config-txo-package-typescript/issues/172)) ([be063a2](https://github.com/technology-studio/eslint-config-txo-package-typescript/commit/be063a2df167bec89cd5668d75718fab2aa5133f))
+
+
+### Bug fixes
+
+* **deps:** update dependency eslint-config-txo-typescript to ^7.4.110 ([#175](https://github.com/technology-studio/eslint-config-txo-package-typescript/issues/175)) ([060fef7](https://github.com/technology-studio/eslint-config-txo-package-typescript/commit/060fef7e77a2341777ee4e81cbaddc8a17ada134))
+
 ## [1.0.114](https://github.com/technology-studio/eslint-config-txo-package-typescript/compare/v1.0.113...v1.0.114) (2025-09-17)
 
 
