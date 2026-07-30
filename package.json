@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-txo-package-typescript",
-  "version": "1.0.121",
+  "version": "0.0.0-development",
   "description": "Technology Studio - Eslint config txo package typescript",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
